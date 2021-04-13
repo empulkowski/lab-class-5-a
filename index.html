@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Military Rank</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="code.js"></script>
+
+    <style>
+        body {
+            font-family: Arial;
+            color: #212121;
+        }
+
+        p {
+            text-transform: uppercase;
+            font-size: larger;
+        }
+
+        button {
+            margin-top: 30px;
+            font-size: large;
+            text-transform: uppercase;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <p>Choose Rank</p>
+
+    <input type="radio" name="rank" id="Enlisted" data-color="red" data-display="E">
+    <label for="Enlisted">Enlisted</label>
+        <br>
+    <input type="radio" name="rank" id="noncommissioned-officer" data-color="blue" data-display="NCO">
+    <label for="noncommissioned-officer">Noncommissioned Officer</label>
+        <br>
+    <input type="radio" name="rank" id="warrent-officer" data-color="yellow" data-display="W">
+    <label for="warrent-officer">Warrent Officer</label>
+        <br>
+    <input type="radio" name="rank" id="commisioned-officer" data-color="green" data-display="O">
+    <label for="commisioned-officer">Commisioned Officer</label>
+        <br>
+
+        <p>Enter Name</p>
+    <label for="first-name">First Name</label>
+    <input type="text" name="name" id="first-name">
+        <br>
+    <label for="last-name">Last Name</label>
+    <input type="text" name="name" id="last-name">
+        <br>
+
+<button>Enter</button>
+
+    <p id="fullName"></p>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
